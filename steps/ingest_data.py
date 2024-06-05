@@ -2,6 +2,7 @@ import logging
 import pandas as pd
 from zenml import step
 
+
 class IngestData:
     def __init__(self,data_path: str):
         self.data_path = data_path
